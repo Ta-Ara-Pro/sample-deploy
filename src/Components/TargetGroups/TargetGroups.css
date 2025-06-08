@@ -1,0 +1,154 @@
+.target-section {
+    background-color: #f9fafb;
+    padding: 80px 20px;
+    text-align: center;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: Montserrat;
+  }
+  
+  .target-header h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #111827;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  
+  .target-header p {
+    font-size: 16px;
+    color: #4b5563;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  .target-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  
+  .target-card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 36px 24px;
+    width: 100%;
+    max-width: 340px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .target-card:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .card-header img {
+    width: 48x;
+    height: 48x;
+  }
+  
+  .card-header h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #418FDE;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .card-header h3 span {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1f2937;
+    display: block;
+    margin-top: 2px;
+    font-family: Montserrat;
+  }
+  
+  .card-header p {
+    font-size: 14px;
+    color: #9ca3af;
+    font-weight: 400;
+    margin-top: 2px;
+    text-align: left;
+  }
+  
+  .card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+    text-align: left;
+  }
+  
+  .card-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    color: #374151;
+    margin-bottom: 14px;
+    line-height: 1.5;
+  }
+  
+  .card-list li img {
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
+  }
+  
+  .card-footer {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .card-footer p {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 12px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+  
+  .card-footer strong {
+    display: block;
+    font-size: 24px;
+    color: #111827;
+    font-weight: 700;
+  }
+  
+  .card-footer button {
+    width: 265px;
+    margin-top: 6px;
+    background-color: #2D2926;
+    color: white;
+    border: none;
+    padding: 18px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .card-footer button:hover {
+    background-color: #111111;
+  }
+  
+  @media (max-width: 1024px) {
+    .target-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

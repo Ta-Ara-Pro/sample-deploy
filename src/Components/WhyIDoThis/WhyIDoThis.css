@@ -1,0 +1,243 @@
+.why-section {
+  background: #F7F8FA;
+  padding: 0px 20px;
+  padding-top: 60px;
+  position: relative;
+  width: 100%;
+  height: auto;
+
+}
+
+.why-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  /* position: relative; */
+}
+
+.why-left {
+  flex: 1;
+  min-width: 320px;
+  max-width: 700px;
+  z-index: 10;
+}
+
+.tag {
+  color: #418FDE;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.why-left h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+  margin: 10px 0 20px;
+}
+
+.description {
+  font-size: 16px;
+  color: #374151;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.checklist {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+  width: 523;
+height: 24;
+gap: 10px;
+
+}
+
+.checklist li {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #111827;
+  margin-bottom: 14px;
+  font-family: Montserrat;
+font-weight: 400;
+font-size: 14px;
+line-height: 23.8px;
+letter-spacing: -0.09px;
+vertical-align: middle;
+
+}
+
+.checklist img {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.more-btn {
+  background: white;
+  border: 1px solid #d1d5db;
+  padding: 7px 40px;
+  border-radius: 999px;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s ease;
+}
+
+.more-btn:hover {
+  background: #f3f4f6;
+}
+
+.why-right {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  justify-content: flex-start;
+
+}
+
+.chart-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 2rem 2rem;
+  width: 100%;
+  z-index: 20;
+  /* max-width: 520px; */
+  height: 80%;
+  
+}
+
+.chart-card h4 {
+  font-family: Montserrat;
+font-weight: 400;
+font-size: 14px;
+line-height: 23.8px;
+letter-spacing: -0.09px;
+vertical-align: middle;
+margin-bottom: 1rem;
+
+}
+
+.bar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bar-borders {
+  border-left: 0.5px solid gray;
+  border-bottom: 0.5px solid gray;
+}
+
+.bar-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+  margin-right: 1.5rem;
+  
+}
+
+.bar-label {
+  font-size: 14px;
+  color: #333;
+  flex: 1;
+
+  font-family: Montserrat;
+font-weight: 400;
+font-size: 12px;
+line-height: 23.8px;
+letter-spacing: -0.09px;
+vertical-align: middle;
+
+}
+
+.bar-wrapper {
+  position: relative;
+  flex: 3;
+
+  height: 8px;
+  border-radius: 6px;
+  margin-left: 16px;
+}
+
+.bar-fill {
+  background-color: #418FDE;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.bar-score {
+  position: absolute;
+  right: -26px;
+  top: -2px;
+  font-size: 13px;
+  color: #111827;
+  font-weight: 500;
+}
+
+.score-note {
+  font-size: 13px;
+  color: #418FDE;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.why-right-img {
+  width: 90%;
+}
+
+/* --- RESPONSIVE STYLES --- */
+
+@media (max-width: 768px) {
+  .why-inner {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .why-left, .why-right {
+    max-width: 100%;
+  }
+
+  .bar-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bar-wrapper {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 6px;
+  }
+
+  .bar-score {
+    right: 0;
+    top: -20px;
+  }
+
+  .chart-card {
+    padding: 24px;
+  }
+
+  .why-left h1 {
+    font-size: 28px;
+  }
+
+  .description, .checklist li {
+    font-size: 15px;
+  }
+
+  .more-btn {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+}

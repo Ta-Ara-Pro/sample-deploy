@@ -1,0 +1,368 @@
+/* Reset and Base Styles */
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+  background: #F9FBFC;
+  color: #2D2926;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Topbar */
+.topbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.topbar-line{
+   width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid #fafafa;
+  border-radius: 15px;
+  padding: 5px 5px;
+  position: relative;
+  background-color: white;
+}
+/* ==================== */
+
+/* ====================== */
+/* ==================== */
+
+
+@keyframes moveIcon {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+/* ====================== */
+
+
+
+.topbar-inner {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.5px solid #e2dfdf;
+  border-radius: 15px;
+  padding: 10px 20px;
+  position: relative;
+  background-color: white;
+}
+
+/* Logo */
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  max-width: 160px;
+}
+
+/* Desktop Navigation */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.nav a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2D2926;
+}
+
+/* Action Buttons */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-button {
+  color: #fafafa;
+  padding: 0.5rem 2rem;
+  font-size: 13px;
+  font-weight: 500;
+  background: #418FDE;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-button:hover {
+  background: #7096d9b9;
+}
+
+.flag {
+  width: 24px;
+  height: auto;
+}
+
+/* Burger Menu */
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.bar {
+  width: 24px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 2px;
+}
+
+/* Hero Section */
+.hero {
+  /* min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding: 60px 20px;
+  background-color: #f9fafa;
+  position: relative;
+  margin-bottom: 2rem;
+  height: 870px;
+  overflow: hidden; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f9fafa;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+ 
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to right, #e5e7eb 1px, transparent 1px),
+                    linear-gradient(to bottom, #e5e7eb 1px, transparent 1px);
+  background-size: 50px 50px;
+  opacity: 0.3;
+  z-index: -1; 
+}
+
+.hero-content {
+  /* max-width: 800px;  */
+   z-index: 10; 
+  position: absolute;
+  bottom: 40%;
+
+}
+
+.hero-content h1 {
+  font-family: Montserrat;
+font-weight: 700;
+font-size: 48px;
+line-height: 52px;
+letter-spacing: -0.09px;
+text-align: center;
+
+}
+
+.hero-content p {
+  font-family: Montserrat;
+font-weight: 400;
+font-size: 16px;
+line-height: 23.8px;
+letter-spacing: -0.09px;
+text-align: center;
+vertical-align: middle;
+margin-top: 1rem;
+color: #2D2926;
+
+}
+
+.appointment-button {
+  background: #418FDE;
+  color: white;
+  border: none;
+  padding: 10px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 1rem;
+  gap: 10px;
+border-radius: 30px;
+
+}
+
+.appointment-button:hover {
+  background: #4190deb6;
+}
+
+/* Sidebar Menu */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 260px;
+  height: 100vh;
+  background: #fff;
+  padding: 60px 20px;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  transition: right 0.3s ease-in-out;
+  z-index: 1050;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.side-menu.open {
+  right: 0;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.side-nav a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2D2926;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .nav,
+  .actions.desktop-only {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .flag {
+    width: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .appointment-button {
+    padding: 10px 28px;
+    font-size: 15px;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .topbar-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .logo {
+    max-width: 120px;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+  }
+
+  .appointment-button {
+
+    font-size: 14px;
+    padding: 10px 28px;
+    margin-top: 1rem;
+  }
+
+  .contact-button {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}
+
+/* Utility */
+.no-scroll {
+  overflow: hidden;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .mobile-only {
+    display: block;
+  }
+}

@@ -1,0 +1,632 @@
+{
+  "message_sent_success": "Ihre Nachricht wurde erfolgreich gesendet!",
+"message_sent_error": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+  "interim0": "Interim CMO & CBO",
+  "Consulting": "Meine Beratung",
+  "experience": "Meine Erfahrung ",
+  "about": "Mein Unternehmen",
+  "Contact us": "Kontakt",
+  "contact_title": "Kontakt aufnehmen",
+  "drop_message": "Schreib mir eine Nachricht",
+  "response_note": "Ich melde mich so schnell wie möglich zurück.",
+  "full_name": "Vorname und Nachname",
+  "company_name": "Firmenname",
+  "work_email": "Email Firma",
+  "subject": "Betreff",
+  "message": "Nachricht",
+  "send": "Senden",
+  "phone_label": "Ich helfe gerne weiter",
+  "email_label": "Anfrage/Termin senden",
+  "about_title": "Mein Unternehmen",
+  "about_title2": "THE BRAND NAVIGATION®",
+  "about_intro_1": "A) Interim CMO- & CBO-Services für Marken im Wandel.",
+  "about_intro_2": "B) Beratung für Marketing, Marke und MarTech mit strategischer Ausrichtung in die Zukunft.",
+  "about_deliver": "Was ich liefere:",
+  "about_items": [
+    "Klare Positionierung",
+    "Skalierbare Strategie",
+    "Integrierte MarTech-Lösungen",
+    "Abgestimmte und motivierte Teams",
+    "Messbares Wachstum"
+  ],
+  "about_impact": "Executive-Level Impact. Dann, wenn es zählt. Dort, wo es wirkt.",
+  "step_marketing": "Marketing-Führung",
+  "step_reference": "Referenzen\n/Marken",
+  "step_target": "Zielgruppe",
+  "step_collaborative": "Vision\nMission\nWerte",
+  "alt": {
+    "strategy": "Marketingstrategie",
+    "flag": "Flaggensymbol",
+    "health": "Gesundheitssymbol",
+    "route": "Routen-Symbol",
+    "network": "Netzwerk-Symbol"
+  },
+  "interim-title": "Marketing-Führung",
+  "intro_part1": "Ich führe ihr Marketing in die Zukunft – als Interim Manager oder Berater - flexibel, schnell und ergebnisorientiert. Ob Transformation, Reorganisation oder Markterweiterung: Ich bringe strategische Klarheit, operative Umsetzung und Kontinuität.",
+  "intro_part2": "Von Transformation bis Markteintritt bringe ich strategische Klarheit, Umsetzung und Kontinuität.",
+  "points": {
+    "core_strength": {
+      "title": "Kernkompetenz:",
+      "description": "Marketing-Führung auf C-Level, komplexe Projektsteuerung, MarTech."
+    },
+    "industry_focus": {
+      "title": "Branchenschwerpunkt:",
+      "description": " Automobilindustrie mit Fokus Elektromobilität; Getränkebranche (Handel & Gastronomie)"
+    },
+    "network": {
+      "title": "Netzwerk:",
+      "description": " Erprobtes Netzwerk aus Strateg:innen, Kreativen und Tech-Spezialist:innen (KI)"
+    }
+  },
+    "sectionTitle": "ZIELGRUPPEN",
+  "sectionSubtitle": "Markenstärke, Marketing-Performance und Wachstum gestalten – vom Start-up bis zum Marktführer",
+
+  "startup": {
+    "title": "Start-ups",
+    "offerTitle": "Angebot für ",
+    "subtitle": "Strategie von Anfang an richtig aufsetzen",
+    "points": [
+      "Entwicklung einer klaren Marketingstrategie und Positionierung für einen starken Marktauftritt",
+      "Aufbau einer unverwechselbaren, skalierbaren Markenidentität über alle Kanäle hinweg",
+      "Erstellung von Marketing-Frameworks, die mit dem Unternehmen mitwachsen",
+      "Frühzeitige Ausrichtung und Abstimmung von Produkt, Marketing und Vertrieb",
+      "Flexible Senior-Führung – ohne langfristige Bindung"
+    ],
+     "footer":"Erstgespräch kostenlos",
+    "footerExp":"",
+    "button" : "Lassen Sie uns sprechen  →"
+  },
+
+  "scaleups": {
+    "title": "Scale-ups",
+    "offerTitle": "Angebot für ",
+    "subtitle": "Wachstum mit Struktur und Klarheit gestalten",
+    "points": [
+      "Stärkung der Marketingstrategie zur Unterstützung bei schnellem Wachstum",
+      "Professionalisierung des Markenmanagements für Konsistenz über alle Märkte hinweg",
+      "Optimierung von Marketingprozessen und interner Zusammenarbeit",
+      "Klare Positionierung von Innovationen gegenüber neuen und bestehenden Zielgruppen",
+      "Senior-Expertise zur Begleitung von Teams durch Wachstumsphasen"
+    ],
+    "footer":"Erstgespräch kostenlos",
+    "footerExp":"",
+    "button" : "Lassen Sie uns sprechen  →"
+  },
+
+  "established": {
+    "title": "Etablierte Unternehmen",
+    "offerTitle": "Angebot für ",
+    "subtitle": "Marke und Marketing neu ausrichten",
+    "points": [
+      "Repositionierung von Marke und Marketing zur Anpassung an veränderte Märkte",
+      "Modernisierung von Markenführung und „Customer Experience“ Strategien",
+      "Abbau von Silos zwischen Marketing, Vertrieb und Kommunikation",
+      "Führung von Digital- und KI-Initiativen im Einklang mit den Markenzielen",
+      "Externe Führungskompetenz, um Wandel zu ermöglichen – bei gleichzeitigem Erhalt der Markenidentität"
+    ],
+    "footer":"Erstgespräch kostenlos",
+    "footerExp":"",
+    "button" : "Lassen Sie uns sprechen  →"
+  },
+
+  
+  "leadership_main": "Kooperative Führung",
+  "leadership_description": "Mein Führungsstil ist integrativ und funktionsübergreifend – besonders wertvoll in Phasen der Transformation, in denen interne Abstimmung und Klarheit entscheidend sind.",
+
+  "point_title_one": "Teamaufbau & Struktur",
+  "point_body_one": "Ich analysiere Teams, schließe Kompetenzlücken und bringe Verantwortlichkeiten in Einklang mit den strategischen Unternehmenszielen.",
+
+  "point_title_two": "Anpassungsfähigkeit",
+  "point_body_two": "Ich erfasse neue Branchen und Teamstrukturen schnell – und treibe Veränderung mit klarer Strategie, starker Kommunikation und dem richtigen Gespür für den Kontext voran.",
+
+  "pillar_heading_one": "Mission",
+  "pillar_text_one": "Ich begleite Unternehmen durch Veränderung – mit Klarheit, Kreativität und datenbasierter Denkweise. Strategie wird dabei zum Kompass, nicht zur Einschränkung.",
+
+  "pillar_heading_two": "Vision",
+  "pillar_text_two": "Ich verstehe Markenführung als aktive Navigation – agil, inspirierend und zukunftsorientiert. Nur Marken die am Puls der Zeit bleiben, gestalten sinnvollen Wandel.",
+
+  "pillar_heading_three": "Werte",
+  "pillar_text_three": "Agilität – Wandel ist die Norm; Anpassungsfähigkeit ist entscheidend. Voraussicht – Ich verbinde Strategie mit kulturellem und technologischem Wandel. Klarheit – Eine klare Positionierung und eindeutige Stimme zählen. Zusammenarbeit – Vertrauen und gemeinsamer Zweck stehen im Zentrum. Strategie ist ein Horizont, kein fixer Pfad.",
+  
+  "ServiceCards": {
+    "card0": {
+      "label": "Your Label Here",
+      "description": "Your description here."
+    },
+    "card1": {
+      "label": "Your Label Here",
+      "description": "Your description here."
+    },
+    "card2": {
+      "label": "Your Label Here",
+      "items" : {
+        "agility": "Agilität",
+        "foresight": "Weitblick",
+        "clarity": "Klarheit",
+        "partnership": "Partnerschaft"
+      },
+      "description": {
+        "agility": " Wandel ist der Normalzustand. Anpassungsfähigkeit entscheidet.",
+        "foresight": " Ich verbinde Strategie mit kulturellem und technologischem Wandel.",
+        "clarity": "Eine klare Positionierung und eine unverwechselbare Stimme machen den Unterschied",
+        "partnership": "Ich arbeite vertrauensvoll, kooperativ und zielgerichtet.",
+        "conclusion": "Strategie ist ein Horizont – keine starre Route."
+      }
+    }
+  },
+  
+  "headline_label": "Referenzen",
+  "caption_text": "Nachweislicher Erfolg bei globalen Markenikonen und ambitionierten Herausforderern. Ich habe Marketing- und Markenstrategien für einige der renommiertesten Unternehmen der Welt verantwortet – darunter Audi, Bugatti, Rimac, Henkell Freixenet, Heineken und Gösser. Jede Zusammenarbeit war geprägt von höchsten Ansprüchen, messbaren Ergebnissen und tiefem Marktverständnis.Meine internationale Erfahrung ermöglicht es mir, kulturelle Feinheiten und Marktdynamiken souverän zu navigieren.",
+  "headline_sub" : "Erfolg in internationalen Markenwelten",
+  "globalExperienceDeclaration": "Berufserfahrung",
+  "strategicMarketSynopsis": "Meine Erfahrung ist geprägt durch internationale Märkte, kulturelles Verständnis und Führungserfahrung vor Ort. Jeder Markt tickt anders – und genau so sollte auch ihr Marketing funktionieren.",
+  "crossMarketAdvantageNote": "Ich bringe tiefgreifende Erfahrung aus Schlüsselregionen Europas und Asiens mit – inklusive unterschiedlicher Marktgeschwindigkeiten, regulatorischer Anforderungen und Kundenerwartungen. Dieses interkulturelle Know-how ermöglicht es mir, Strategien effektiv anzupassen – und dabei stets die globale Marken- und Unternehmensziele im Blick zu behalten.",
+  
+  "exp_austria_title": "Porsche Holding / Porsche Austria – Salzburg, Österreich",
+  "exp_austria_desc": "Leiter Audi Marketing Österreich | Juni 2002 – September 2011",
+  "exp_austria_exp": "Verantwortlich für die 360° Marketingstrategie und deren Umsetzung in Österreich. Markteinführungen, Lifecycle-Maßnahmen, Verkaufsförderung und Kampagnen für den Handel, Händler-Events und Sponsorings (u. a. Audi FIS Skiweltcup, Salzburger Festspiele). Frühe Implementierung digitaler Tools wie Audi TV, mobile Kampagnen und 3D Car Configurator.",
+  "exp_austria_award": "Staatspreis für Werbung: Kampagne „quattro®/Audi FIS Ski World Cup",
+
+  "exp_germany_title": "Audi AG – Ingolstadt, Deutschland",
+  "exp_germany_desc": "Leitung Markenkommunikation & Erlebnismarketing | Oktober 2015 – Juli 2019",
+  "exp_germany_exp": "Nationale Konzepte und Umsetzung der Markenkommunikation, Kampagnen und von Markenerlebnissen (Budget: €65 Mio., Absatz: 280.000 Einheiten). Entwicklung prämierter Strategien in Live-Kommunikation, Globale Sportpartnerschaften und VIP-Aktivierungen. Stärkung der Markenbindung durch emotionales Storytelling, digitale Touchpoints und enge Zusammenarbeit mit dem Vertrieb und dem Produktmanagement.",
+
+  "exp_croatia_france_title": "BUGATT RIMAC d.o.o. – Zagreb & Molsheim, Kroatien & Frankreich",
+  "exp_croatia_france_desc": "Direktor Marketing & Produkt Marketing | Juli 2022 – Dezember 2024",
+  "exp_croatia_france_exp": "Direkt an CEO und Gründer Mate Rimac berichtend, verantwortlich für die globale Marketingstrategie, Teamaufbau und die Umsetzung internationaler Kampagnen. Erfolgreiche Markenentwicklung u.a. durch die neue Markenpositionierung (inkl. CI-CD) zielgerichtetes Marketing, CRM-Programme für die entsprechende Zielgruppe (UHNW-/HNW) und strategische Partnerschaften und Kooperartionen. Zuständig für Produktmarketing, KPI-Steuerung und langfristige Strategie im Einklang mit den Wachstums- und Umsatzzielen der Luxusmarken.",
+
+  "exp_china_title": "FAW-Volkswagen / Audi Sales Division China, Peking",
+  "exp_china_desc": "Vice President PR & Marketing / Product Marketing | August 2019 – April 2022",
+  "exp_china_exp": "Verantwortlich für Marken- und Marketingstrategie von Audi China in enger Abstimmung mit der AUDI AG. Führung eines High-Performance-Teams und Verwaltung eines Budgets von €300 Mio. Zuständig für Markenpositionierung, Kampagnensteuerung, CRM und digitale Transformation – u. a. mit der nationalen „e-tron Offensive“ (Elektromobilität) und der „High-Performance-Modellen“ (Audi Sport). Reorganisation des Marketing Teams und deren Berichtswesen (Joint-Venture). Erfolge digitale Transformation (u.a. Online-Sales) während der COVID-19-Pandemie in China! Ergebnis: zweistelliges Umsatz- und EBIT-Wachstum in FY2022 und Aufstieg von Audi auf Platz 2 im Markenimage-Ranking in China",
+
+  "exp_russia_title": "Volkswagen Group RUS / Audi Manufacturing Division Russland, Moskau",
+  "exp_russia_desc": "Marketing & Communications Director | Okt.ober2011 – September 2015",
+  "exp_russia_exp": "Leitung der integrierten Marketingstrategie und Marketingmaßnahmen über digitale Kanäle, Events und Sponsoring – u. a. im Rahmen der Olympischen Winterspiele Sotschi 2014. Entwicklung der international prämierten Kampagne „Russia, Land of quattro“, die in 47 Audi-Märkten weltweit übernommen wurde. Fokus: Premium-Markenpositionierung im Bereich Allrad-/SUV-Modelle, Russlandweite Audi Händlereröffnungen.",
+  "exp_russia_award": "Auszeichnung: Global Effie Gold Award 2012/13 – New York, American Marketing Association.",
+  "label_austria_germany": "Österreich/\nDeutschland",
+  "label_croatia_france": "Kroatien/\nFrankreich",
+  "label_china": "China",
+  "label_russia": "Russland",
+
+
+  "signpost": "Wegweiser",
+  "for": "für",
+  "growth": "Wachstum.",
+
+
+  "hero": {
+    "heading": "Wir navigieren am Dreh- und\nAngelpunkt von Wachstum,\nRelevanz und Agilität.",
+    "paragraph": "Markenstrategie als Kompass für Wachstum.\nMit Vision, Agilität und klarer Richtung – nie mit Kontrolle.",
+    "button": "Kostenfreies Erstgespräch buchen  →"
+  },
+  "brands": {
+    "title": "Marketing Leadership für internationale Marken",
+    "description": "Ich habe in Österreich, Deutschland, Kroatien, Russland und China gelebt und gearbeitet um Marken in unterschiedlichen Märkten strategisch auszurichten und wirksam zu positionieren.\nMeine internationale Erfahrung hilft mir, kulturelle Feinheiten und Marktdynamiken sicher zu navigieren.",
+    "moreButton": "Mehr erfahren →"
+  },
+  "strategy": {
+    "heading": "Markenführung ist Navigation – nicht Kontrolle.",
+    "paragraph1": "Marken wachsen durch Richtung, nicht durch Starrheit.",
+    "paragraph2_part1": "Märkte verändern sich. Disruption ist Realität. In einer Welt des ständigen Wandels muss Markenstrategie als Kompass wirken – sie führt, ohne einzuengen.",
+    "paragraph2_strong": "THE BRAND NAVIGATION versteht Wandel als Normalzustand.",
+    "paragraph2_part2": "Wie beim Segeln bedeutet starke Markenführung: Kurs halten, fokussiert bleiben und mit Weitblick steuern.",
+    "paragraph2_part3": "Es gibt keine geraden Linien – nur klare Ausrichtung und den Mut, Anpassungen für die Zukunft zu machen.",
+    "label": "Strategie",
+    "services": {
+      "0": {
+        "title": "Marken- & Marketing-Audit",
+        "description": "Analyse von Markenpositionierung, Botschaften, Kanälen und Kampagnenleistung."
+      },
+      "1": {
+        "title": "Go-to-Market-Strategie",
+        "description": "Entwicklung klarer Markteinführungspläne für neue Produkte/Modelle, Services oder neue Märkte – inklusive Zielgruppensegmentierung, Botschaften, Werteversprechen und Mediastrategie."
+      },
+      "2": {
+        "title": "Customer Journey Mapping",
+        "description": "Visualisierung und Analyse der gesamten Customer Experience – über alle digitalen und physischen Touchpoints hinweg."
+      }
+    }
+  },
+  "motivation": {
+    "heading": "Motivation",
+    "paragraph": "Als temporäre Führungskraft will ich mehr als nur Lücken füllen oder strategische Projekte managen.\nIch sehe meine Rolle auch darin, als Vorbild zu wirken – insbesondere in Fragen der Unternehmenskultur und Ethik.\n Ein wesentlicher Vorteil, den ich mitbringe: Wissenstransfer. Gewachsen durch jahrelange Erfahrung und die kontinuierliche Arbeit in unterschiedlichsten Unternehmenskontexten. Ich schätze die Möglichkeit, in kurzer Zeit spürbare Wirkung zu erzielen. ",
+    "button": "Mehr über mich →"
+  },
+  "why": {
+    "tag": "Mein Antrieb",
+    "heading": "Warum ich tue, was ich tue",
+    "description": "Ich bin nicht hier, um Lücken zu füllen oder alles besser zu wissen – ich bin hier, um Unternehmen fit für die Zukunft zu machen. Als Interim Executive und als Berater denke ich mit Klarheit und Haltung:",
+    "list": {
+      "0": "Ich gestalte Unternehmenskultur, Ethik und strategische Ausrichtung.",
+      "1": "Ich bringe frische Perspektiven, schnelle Wirkung und einen starken Fokus auf Wissenstransfer.",
+      "2": "Geprägt durch viele Jahre in unterschiedlichsten Unternehmenslandschaften, navigiere ich sicher durch Wandel und Komplexität und schaffe Wachstum"
+    },
+    "button": "Mehr erfahren  →",
+    "chart_heading": "Warum es sich lohnt, Marketing- und Markenführung temporär auszulagern:",
+    "score_note": "Wirkungsgrad der Vorteile (simulierter Score)"
+  },
+  "benefits": [
+    "Kosteneffizient",
+    "Zeitersparnis",
+    "Flexibel & skalierbar",
+    "Führung mit Wirkung",
+    "Objektivität"
+  ]
+,
+
+  "servicesSection": {
+    "heading": "Sichern Sie sich exzellente Leistungen.",
+    "subtitle": "Erfolgreiche Marketing-Führung – vom CMO/CBO, Berater bis zum „Growth Architect“.",
+    "description": "Erfolgsorientiert. Mutig. Mit Weitblick und Umsetzungskraft.",
+    "cta1": "Interim CMO & CBO",
+    "cta2": "Meine Beratung",
+    "services": {
+      "0": {
+        "title": "Interim CMO & CBO",
+        "description": "Strategische Führung, wenn Marken Klarheit, Tempo und Ergebnisse brauchen – in Zeiten des Wandels, Wachstums oder der Neuausrichtung."
+      },
+      "1": {
+        "title": "Voice of the Customer / Engagement",
+        "description": "Kunden verstehen. Strategisch handeln. Ich helfe Ihnen, Kundenfeedback gezielt zu erfassen, Verhalten zu entschlüsseln und daraus relevante Marken- und Marketingstrategien abzuleiten."
+      },
+      "2": {
+        "title": "Technologie & Daten",
+        "description": "Die richtigen Tools. Die relevanten Daten. Ich optimiere Marketing-Performance und Markenentscheidungen – durch die gezielte Ausrichtung von Tech-Stacks und datenbasierten Insights."
+      },
+      "3": {
+        "title": "Markenstrategie",
+        "description": "Klarheit schafft Wachstum.Ich entwickle Positionierung, Botschaften und Markenarchitektur –unverwechselbar, resonanzstark und führungsfähig."
+      },
+      "4": {
+        "title": "Marketing Outreach",
+        "description": "Marketing Outreach Jeder Kontakt zählt. Ich konzipiere Kampagnen und Erlebnisse, die verbinden, aktivieren und konvertieren – online wie offline."
+      },
+      "5": {
+        "title": "Umsatzwachstum",
+        "description": "Marketing mit Wirkung.Ich verbinde Markenstrategie mit Performance-Marketing – um Nachfrage zu steigern, Conversions zu erhöhen und Umsatzwachstum zu erzielen."
+      }
+    }
+  },
+  "footer": {
+    "description": "Wachstum entfalten. Wandel navigieren.",
+    "mainPages": "Hauptseiten",
+    "pages": "Seiten",
+    "nav": {
+      "home": "Startseite",
+      "consulting": "Meine Beratung",
+      "interim": "Interim CMO & CBO",
+      "contact": "Kontakt",
+      "about": "Mein Unternehmen",
+      "experience": "Meine Erfahrung",
+      "imprint":"Impressum"
+    },
+    "copyright": "Copyright©2025 thebrandnavigation.com"
+  },
+
+
+ "interim": {
+    "title": "Interim-Management\nauf C-Level",
+    "description": "Ich übernehme die Rolle des CMO oder CBO, um Marketing und Marke in Zeiten des Wandels zu führen – strategisch, technologieorientiert, wachstumsfokussiert.",
+    "steps": {
+      "why": "Warum?",
+      "interimCMO": "Interim CMO",
+      "vs": "CMO vs CBO",
+      "interimCBO": "Interim CBO"
+    }
+  },
+
+  "InterimRoles": {
+    "titlePrefix": "Was ist ein Interim",
+    "deliverTitle": "Was ich als {{role}} liefere",
+    "planTitle": "Startklar: 30/60/90-Tage-Plan als Interim",
+    "planSubtitle": "Jede Marke ist anders – doch strategisches Onboarding folgt einem klaren Rhythmus. So gestalte ich typischerweise die ersten 90 Tage:",
+    "plan": {
+      "foundationTitle": "Tag 1–30: Fundament schaffen",
+      "foundationDesc": "Die Marke von innen heraus verstehen – Kultur, Werte, Markenauftritt und Wahrnehmung. Abgleich mit relevanten Stakeholdern und Analyse des Markenstatus.",
+      "strategyTitle": "Tag 31–60: Strategie entwickeln",
+      "strategyDesc": "Markenpositionierung, Messaging und Konsistenz schärfen. Relevante KPIs definieren und die Marke strategisch mit den Unternehmenszielen verknüpfen.",
+      "activationTitle": "Tag 61–90: Aktivierung",
+      "activationDesc": "Interne Markenbindung initiieren. Tools und Trainings für Markenkonsistenz einführen und eine zukunftsorientierte Marken-Roadmap umsetzen."
+    },
+    "metricsTitle": "CBO: Relevante Kennzahlen",
+    "metricsSubtitle": "Die Kennzahlen für Chief Brand Officers variieren je nach Branche und Strategie – doch\ndiese Kernmetriken bilden eine verlässliche Grundlage:",
+    "metricsNote": "Diese Kennzahlen dienen als Grundlage für konkrete KPIs – und messen den Fortschritt auf dem Weg zu Zielen wie höherer Markenbekanntheit oder Erhöhung der Markenwahrnehmung in der Kommunikation.",
+    "cboMetrics": {
+      "Engagement": "Markeninteraktion",
+      "Awareness": "Markenbekanntheit",
+      "Loyalty": "Markentreue",
+      "Voice": "Share of Voice"
+    },
+    "metrics": {
+      "Markeninteraktion": "Wie intensiv und häufig Menschen mit Ihrer Marke interagieren.",
+      "Markenbekanntheit": "Der Wiedererkennungswert Ihrer Marke – gestützt und ungestützt.",
+      "Markentreue": "Der wahrgenommene Markenwert, basierend auf Loyalität, Image und Assoziationen.",
+      "Share of Voice": "Der Sichtbarkeitsanteil Ihrer Marke im Vergleich zum Wettbewerb über verschiedene Medien hinweg."
+    },
+    "comparisonTitle": "CMO vs. CBO - Was ist der Unterschied?",
+    "comparisonSubtitle": "Gemeinsam verbinden sie strategische Performance mit langfristiger Markenstärke\nund Wachstum – mit messbaren Ergebnissen und nachhaltige Relevanz für morgen.",
+    "comparison": {
+      "Interim CMO": "Fokussiert auf Wachstumsstrategie, Marketing-Performance und Kundengewinnung.",
+      "Interim CBO": "Fokussiert auf Markenklarheit, Konsistenz und nachhaltige Wertschöpfung/Markenwert."
+    },
+    "roles": {
+      "CMO": "Ein Marketing Leiter auf Zeit, der Strategie, Wachstum und Transformation vorantreibt – genau dann, wenn Sie ihn brauchen. Ohne langfristige Bindung.",
+      "CBO": "Ein Markenstratege auf Zeit, der Ihre Markenidentität stärkt und mit der Geschäftsstrategie in Einklang bringt – ohne die Kosten einer Vollzeitposition."
+    },
+    "deliverables0": {
+      "Strategic": "Strategische Markenführung",
+      "Clear": "Klar positionierte Marke",
+      "Consistency Across Touchpoints": "Konsistenz über alle Touchpoints",
+      "Adaptability & Innovation": "Anpassungsfähigkeit & Innovation",
+      "Internal Brand Alignment": "Interne Markenverankerung",
+      "Performance-Driven Brand Management": "Performance-orientiertes Markenmanagement",
+      "Customer-Centric Experience": "Kundenzentrierte Markenerlebnisse"
+    },
+    "deliverables": {
+      "Strategische Markenführung": "Ich definiere und entwickle Ihre Markenidentität weiter – im Einklang mit Unternehmenszielen und Markterwartungen.",
+      "Klar positionierte Marke": "Ich erarbeite eine differenzierende Markenstrategie, die Ihre Zielgruppe anspricht und langfristigen Markenwert schafft.",
+      "Konsistenz über alle Touchpoints": "Von Kampagnen bis Kundenservice – ich sorge für einen einheitlichen Markenauftritt, visuell und erlebbar.",
+      "Anpassungsfähigkeit & Innovation": "Ich analysiere Trends und Feedback, um Ihre Marke relevant und wettbewerbsfähig in einer wandelnden Welt zu halten.",
+      "Interne Markenverankerung": "Ich motiviere Mitarbeitende rund um eine gemeinsame Vision – und mache sie zu glaubwürdigen Markenbotschaftern.",
+      "Performance-orientiertes Markenmanagement": "Ich messe Markenwirkung, analysiere Engagement und nutze Daten, um die Markenkraft zu schärfen.",
+      "Kundenzentrierte Markenerlebnisse": "Ich optimiere alle Berührungspunkte – von UX über Design, Digital bis zum Handel – um emotionale Bindung und Loyalität zu stärken."
+    },
+    "deliverablesCMO_titles": {
+  "Marketing leadership": "Marketing-Führung",
+  "Strategy & Planning": "Strategie & Planung",
+  "Flexible Engagement": "Flexible Zusammenarbeit",
+  "Team Empowerment": "Team Stärkung",
+  "Market Insight": "Marktverständnis",
+  "Optimization & Efficiency": "Optimierung & Effizienz",
+  "Go-to-Market Strategy": "Go-to-Market-Strategie",
+  "Product & Sales Alignment": "Produkt- & Vertriebsabstimmung",
+  "Performance & ROI": "Performance & ROI"
+},
+    "deliverablesCMO": {
+      "Marketing leadership": "Strategische Leitung auf Executive-Level, Teams führen, Entscheidungen treffen, Marketingziele und Unternehmensziele verknüpfen.",
+      "Strategy & Planning": "Individuelle Strategien für Marke, Markt und Branche – mit tiefer Expertise in Automotive und E-Mobility in Europa und Asien.",
+      "Flexible Engagement": "CMO-Kompetenz nach Bedarf – von 10 bis 40 Stunden pro Woche. Skalierbar. Ohne langfristige Verpflichtung.",
+      "Team Empowerment": "Ihr Team setzt um – ich liefere Erfahrung, Weitblick und klare Richtung.",
+      "Market Insight": "Marktforschung in konkrete Maßnahmen übersetzen – auf Basis von Trends, Wettbewerbsanalysen und Kundenverhalten.",
+      "Optimization & Efficiency": "Potenziale heben, Prozesse verschlanken, Teamleistung steigern.",
+      "Go-to-Market Strategy": "Markteinführungen präzise planen – mit klaren Rollen, KPIs und digitalem Fokus.",
+      "Product & Sales Alignment": "Marketing, Produktmanagement und Vertrieb verzahnen – für mehr Wirkung im Markt.",
+      "Performance & ROI": "Klare KPIs definieren, Wirkung messen und Strategien datenbasiert anpassen."
+    }
+  },
+  "WhyWork": {
+    "title": "Warum mit mir arbeiten – als Interim CMO / CBO?",
+    "subtitleStrong1": "Senior-Impact. Ohne Vollzeitkosten",
+    "intro1": "Ich liefere Führung auf C-Level – schnell, flexibel und effizient.",
+    "subtitleStrong2": "Ihr Mehrwert:",
+    "points": {
+      "point1": "Strategische Klarheit & operative Umsetzung",
+      "point2": "Schnelle Integration & direkte Wirkung",
+      "point3": "Skalierbare Unterstützung bei Wachstum, Wandel oder Markteinführungen",
+      "point4": "Unabhängiger Blick von außen",
+      "point5": "Team-Alignment & Leadership ab Tag eins"
+    },
+    "intro2": "Schnell anpassungsfähig. Klar führend. Ergebnisorientiert. Ich steige schnell ein, gebe klare Richtung – und mache Ihr Marketing zukunftsfähig, ohne dabei Zeit zu verlieren."
+  },
+
+  "services": {
+    "title": "Meine Beratung - Kompetenzfelder",
+    "description": {
+      "line1": "Von strategischer Ausrichtung bis zur operativen Umsetzung – diese vier Säulen",
+      "line2": "zeigen, wie ich Marken bzw. Unternehmen dabei unterstütze, in dynamischen",
+      "line3": "Märkten zu wachsen, sich anzupassen und zu führen."
+    },
+    "subtitle": "Was ich einbringe:",
+    "deliverables": [
+      "Vom Marketing Leiter zum Impulsgeber für Wachstum",
+      " Marken Navigator – Markenführung mit Weitblick",
+      "Marketing Think Tank – Strategie und Entwicklung auf Augenhöhe",
+      "Trends in Marketing & Markenführung – Zukunft verstehen, Chancen nutzen"
+    ],
+    "labels": {
+      "growth": "Impulsgeber Wachstum",
+      "trends": "Trends",
+      "consultancy": "Marketing\nThink Tank",
+      "brand": "Marken\nNavigator"
+    }
+  },
+
+  "growthArchitect": {
+    "heading": "Vom Marketing Leiter zum Impulsgeber für Wachstum",
+    "paragraph1": "In Zeiten schnellen Wandels braucht es mehr als nur Marketing - es braucht strategische Führung, die Marke, Technologie und Performance verbindet. Als Impulsgeber für Wachstum unterstütze ich Unternehmen dabei, relevant zu bleiben, Wert zu schaffen und den Wandel aktiv zu gestalten. Nicht durch Reaktion - sondern gezielt durch „fit machen für die Zukunft“.",
+    "subheading": "Meine 5 strategischen Module",
+    "services": {
+      "customerCentricity": {
+        "title": "Kundenorientierung & Engagement",
+        "description": "Tiefere, datenbasierte Kundenbeziehungen durch aktives Zuhören und gezielte Maßnahmen."
+      },
+      "technologyData": {
+        "title": "Technologie & Daten",
+        "description": "Moderne MarTech-Systeme und Analysen für schnellere, fundierte Marketingentscheidungen."
+      },
+      "brandStrategy": {
+        "title": "Markenstrategie",
+        "description": "Stärkung von Markenidentität, Konsistenz und emotionaler Wirkung über alle Touchpoints hinweg."
+      },
+      "marketingOutreach": {
+        "title": "Marketing Outreach",
+        "description": "Mehr Sichtbarkeit durch integrierte Kommunikation und erinnerungswürdige Markenerlebnisse."
+      },
+      "revenueGrowth": {
+        "title": "Umsatzwachstum",
+        "description": "Ergebnisse durch leistungsstarke, technologiegestützte Kampagnen  erzielen."
+      }
+    },
+    "imageLabel": "Impulsgeber für Wachstum"
+  },
+  "brandNavigator": {
+    "title": "Der „MARKEN NAVIGATOR“",
+    "description": "Der MARKEN NAVIGATOR ist das Fundament für eine starke, zukunftsgerichtete Markenstrategie. Ziel ist es, die Markenwerte gezielt zu stärken bzw. zu schärfen und systematisch einen nachhaltigen Wachstumspfad zu gestalten. Im Zentrum steht die Entwicklung einer klaren Markenidentität und einer präzisen Markenpositionierung. Sie bilden die strategische Basis, aus der sich Ziele, Maßnahmen und langfristiger Markenerfolg ableiten lassen.",
+    "corporateTitle": "Unternehmensstrategie__Markenstrategie",
+    "corporateDescription": "Ein Chief Brand Officer (CBO) ist eine zentrale strategische Rolle in noch nicht vielen Unternehmen.       Er oder sie gestaltet Markenstrategie und Innovation – mit langfristigem Einfluss auf den Unternehmenserfolg. Wenn Ihre Marke noch operativ im Marketing „mitläuft“, ist es Zeit, ihr die strategische Relevanz und Investition zu geben, die sie verdient. Ein CBO macht Marke zur Führungsaufgabe – und zum echten Umsatztreiber. Wer Markenwert aktiv aufbauen will, sollte diese Rolle zur Priorität machen."
+  },
+  "consultancyLab": {
+    "title": "Marketing Think Tank",
+    "subtitle": "Lagern Sie Ihre Marketingherausforderungen aus – gewinnen Sie Klarheit, Tempo und messbare Ergebnisse.",
+    "description": "Wir sind keine Agentur, sondern ein strategischer „Think Tank“ für Marke/Markt und Wachstum. Ob Markteinführung, Repositionierung oder Transformation – wir liefern klare Analyse, mutige Ideen und umsetzbare Lösungen.",
+    "services": [
+      {
+        "title": "Markenstrategie & Entwicklung",
+        "subtitle": "Wir definieren, was Ihre Marke relevant macht – und sorgen dafür, dass sie im Kopf bleibt.",
+        "items": [
+          "Positionierung & Markenbotschaft ",
+          "Visuelle & verbale Identität ",
+          "Abgleich von Vision, Mission & Werten",
+          "Zielgruppen- & Persona-Definition"
+        ]
+      },
+      {
+        "title": "Kreativkampagnen",
+        "subtitle": "Von der Idee bis zur Umsetzung – Kampagnen, die verbinden und in Verkäufen konvertieren.",
+        "items": [
+          "Entwicklung kanalübergreifender Kampagnen",
+          "Anzeigenkonzepte (digital & print)",
+          "Event- & Aktivierungsstrategien ",
+          "Erlebnismarketing, Guerilla- & SponsoringIdeen ",
+          "Virale & Social-First-Kampagnen"
+        ]
+      },
+      {
+        "title": "Digitales Marketing",
+        "subtitle": "Intelligente, skalierbare Strategien – für Ergebnisse, nicht nur Klicks.",
+        "items": [
+          "Social Media & Content Marketing ",
+          "Paid Media (PPC, Meta, Google, TikTok) ",
+          "Influencer- & Kooperationskampagnen",
+          "E-Mail-Marketing-Automatisierung",
+          "KI-gestützte Tools für Content, Leadgenerierung & Performance-Trackin"
+        ]
+      },
+      {
+        "title": "Inhalte/Kreation & Marketing ",
+        "subtitle": "Strategisches Storytelling – KI-gestützt und auf Engagement ausgerichtet.",
+        "items": [
+          "Blogs, Artikel & Longform-Content",
+          "Visuals: Grafiken, Videos, Infografiken",
+          "Inhalte für E-Mail, Social Media & Kampagnen ",
+          "Interaktive Formate: Umfragen, Quiz, Games"
+        ]
+      },
+      {
+        "title": "SEO & Analysen",
+        "subtitle": "Sichtbarkeit trifft auf Insights – wir machen Marketing messbar und skalierbar.",
+        "items": [
+          "SEO-Audits & Keyword-Strategie",
+          "On-Page & Off-Page-Optimierung",
+          "Lokale SEO für regionale Reichweite",
+          "Conversion-Optimierung (CRO)"
+        ]
+      },
+      {
+        "title": "Design & Entwicklung",
+        "subtitle": "Web-Erlebnisse, die stark aussehen – und noch stärker performen.",
+        "items": [
+          "Mobile-first & responsives Webdesign",
+          "Individuelle E-Commerce-Lösungen",
+          "UX/UI-Design für nahtlose Nutzerführung",
+          "SEO-optimierte Entwicklung",
+          "Laufende Betreuung & technische Updates"
+        ]
+      }
+    ]
+  },
+  "topTrends": {
+    "title": "Top-Trends im Marketing &<br />Brand Management",
+    "intro": "Die Spielregeln verändern sich – und mit ihnen die Chancen. Von KI-gestützter Personalisierung bis hin zu immersiven Markenerlebnissen: Die erfolgreichsten Strategien von heute basieren auf Anpassungsfähigkeit, Innovation und klare Marktkenntnisse. Diese Trends zeigen, wohin sich der Markt entwickelt – und wie zukunftsorientierte Marken der Entwicklung immer einen Schritt voraus sind.",
+    "leftTrends": [
+      {
+        "title": "KI-gestützte Personalisierung",
+        "desc": "Künstliche Intelligenz ermöglicht hochgradig zielgerichtete Inhalte und Erlebnisse – und steigert so Engagement, Konversionen und Kundentreue."
+      },
+      {
+        "title": "CX-Integration & Konsistenz",
+        "desc": "KI hilft dabei, Markenbotschaften und Kundenerlebnisse über alle Kanäle und Berührungspunkte hinweg zu vereinheitlichen."
+      },
+      {
+        "title": "Wandel durch AI Agenten",
+        "desc": "KI-Agenten gehen über Automatisierung hinaus – bieten 24/7 personalisierten Support, steigern die Effizienz und schaffen neue Wachstumsmöglichkeiten."
+      },
+      {
+        "title": "KI-integrierte Content-Erstellung",
+        "desc": "Generative KI skaliert Inhalte schnell – doch menschliche Kreativität, Empathie und Storytelling heben Marken weiterhin hervor."
+      },
+      {
+        "title": "Der Aufstieg des Social Commerce",
+        "desc": "Soziale Plattformen werden zu Einkaufszentren – und verbinden Inhalte, Community und Commerce zu einem nahtlosen Erlebnis."
+      }
+    ],
+    "rightTrends": [
+      {
+        "title": "Influencer-Marketing boomt",
+        "desc": "Marken setzen auf Mikro-Influencer für authentische, wertorientierte Verbindungen mit Nischenzielgruppen."
+      },
+      {
+        "title": "Kurzform-Video-Content ",
+        "desc": "Kurze, storytelling-basierte Inhalte dominieren – Marken müssen in Sekunden mit Authentizität und Wirkung überzeugen."
+      },
+      {
+        "title": "Voice- & Visual Search",
+        "desc": "Mit dem Wandel der Suche müssen Marken für Sprache und visuelle Reize optimieren – durch umgangssprachliche Keywords und visuelles SEO."
+      },
+      {
+        "title": "Augmented-Reality-Erlebnisse",
+        "desc": "AR erweckt Marken zum Leben – bietet immersive Anproben, Produktdemos und Kundenbindung auf neuem Niveau."
+      },
+      {
+        "title": "Datenschutz & ethisches Marketing",
+        "desc": "Vertrauen ist die neue Währung. Marken müssen transparent, respektvoll und ethisch mit Kundendaten umgehen."
+      }
+    ]
+  },
+  "Consulting":"Meine Beratung",
+  "Let's talk more →":"Jetzt Kontakt aufnehmen →",
+  "cookie": {
+    "message": "Wir verwenden ausschließlich technisch notwendige Cookies, um diese Website betreiben zu können. Diese Cookies sind essenziell und bleiben daher stets aktiviert. Diese Website verwendet keine optionalen Cookies wie Leistungs-, Funktions- oder Targeting-Cookies.",
+    "link": "Weitere Informationen finden Sie in unserer Cookie-Richtlinie.",
+    "agree": "Zustimmen"
+  },
+  "cookieModal": {
+    "title": "Was ist ein Cookie?",
+    "description1": "Ein Cookie ist eine einfache Textdatei, die kleine Informationsmengen enthält. Eine Website bittet deinen Browser, diese Datei auf deinem Gerät zu speichern, um sich bestimmte Informationen über dich zu merken – zum Beispiel deine Sprachpräferenz. In dieser Richtlinie bezieht sich der Begriff „Cookie“ auch auf ähnliche Technologien, die dieselben Zwecke erfüllen, etwa Web-Tags oder andere Tracking-Mechanismen.\nCookies, die von uns gesetzt werden, nennt man First-Party-Cookies und sie können nur von uns gelesen werden. THE BRAND NAVIGATION ist in diesem Fall der Verantwortliche für die Datenverarbeitung dieser Cookies. Die Website kann auch Cookies von Drittanbietern verwenden – also Cookies, die von anderen Organisationen als THE BRAND NAVIGATION gesetzt werden. Diese dienen in der Regel dazu, die Nutzung der Website zu analysieren und die Benutzererfahrung zu verbessern. THE BRAND NAVIGATION hat möglicherweise keine Kontrolle über Speicherung oder Zugriff auf diese Cookies. Du solltest die Datenschutz- und Cookie-Richtlinien dieser Drittanbieter prüfen, um zu erfahren, wie sie Cookies verwenden und wo deine Daten gespeichert und verarbeitet werden. Die durch Cookies erhobenen Informationen können in ein anderes Land übertragen werden, in dem möglicherweise andere Datenschutzgesetze gelten. Wo erforderlich, wird Sony sicherstellen, dass unsere Dienstleister und Partner angemessene Datenschutzmaßnahmen einhalten.",
+    "usedTitle": "Verwendete Cookies auf dieser Website",
+    "strictTitle": "Technisch notwendige Cookies",
+    "strictDescription": "Diese Cookies sind erforderlich, damit die Website korrekt funktioniert, und können in unseren Systemen nicht deaktiviert werden. Sie werden in der Regel nur als Reaktion auf von dir getätigte Aktionen gesetzt, die einer Dienstanforderung entsprechen – z. B. wenn du deine Datenschutzeinstellungen vornimmst, dich einloggst oder Formulare ausfüllst.\nDiese Cookies sorgen auch dafür, dass deine Sitzung auf der Website aufrechterhalten wird und die Seite korrekt funktioniert.",
+    "optionalTitle": "Optionale Cookies",
+    "optionalDescription": "Diese Website verwendet keine optionalen Cookies, wie z. B. Performance-, Funktions- oder Targeting-Cookies. Beachte bitte, dass technisch notwendige Cookies nicht deaktiviert werden können.",
+    "durationTitle": "Wie lange speichern wir Cookie-Daten?",
+    "durationDescription": "Wir speichern die durch Cookies erhobenen Informationen nur für die Dauer deiner Sitzung, da ausschließlich Session-Cookies verwendet werden.",
+    "optOutTitle": "Wie kann ich Cookies deaktivieren?",
+    "optOutDescription": "Du kannst deinen Browser so einstellen, dass er Cookies blockiert oder dich darüber informiert. Beachte jedoch, dass manche Funktionen der Website nicht korrekt funktionieren, wenn technisch notwendige Cookies blockiert werden."
+  },
+  "Imprint" :{
+    "title" : "Rechtliche Hinweise / Impressum",
+    "description1":"THE BRAND NAVIGATION e.U.",
+    "description2":"Interim CMO | CBO",
+    "description3":"Marketing Consultancy Lab",
+    "phone":"Telefon: +43 664 3810344",
+    "landline":"Festnetz: +43 6234 7087",
+    "Email":"E-mail: office@thebrandnavigation.com",
+
+    "address":"Adresse",
+    "addressDescription":"Moorweg 18",
+    "addressDescription2":"A-4893 Zell am Moos",
+    "addressDescription3":"Irrsee | Österreich | Europa",
+    "optionalDescription":"Inhaber & Geschäftsführer: Norbert Schrofner Firmenbuchnummer: FN 651662 b. Firmenbuchgericht: Landesgericht Wels Umsatzsteuer-Identifikationsnummer: ATU82048428",
+    "owner": "Inhaber & Geschäftsführer:",
+    "owner2":"Norbert Schrofner ",
+    "company":"Firmenbuchnummer: ",
+    "company2":"FN 651662 b ",
+    "court":"Firmenbuchgericht: ",
+    "court2":"Landesgericht Wels ",
+    "vat": "UID-Nummer:",
+    "vat2":"ATU82048428"
+  }
+      
+  
+  
+}

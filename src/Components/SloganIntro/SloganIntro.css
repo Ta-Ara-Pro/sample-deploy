@@ -1,0 +1,168 @@
+:root {
+  --primary-color: #4381e6;
+  --background-color: #f3f3f3;
+  --animation-duration-scale: 0.6s;
+  --animation-duration-slide: 0.8s;
+  --animation-ease: ease-in-out;
+}
+
+.intro-container {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  z-index: 9999;
+  transition: background-color var(--animation-duration-slide) var(--animation-ease);
+  will-change: transform, opacity, background-color;
+  transform-origin: center center;
+}
+
+/* Slide down and fade out with scale up before */
+.intro-container.slideDownOut {
+  animation: 
+    scaleUp var(--animation-duration-scale) var(--animation-ease) forwards, 
+    slideDownOut var(--animation-duration-slide) var(--animation-ease) forwards var(--animation-duration-scale);
+}
+
+/* Scale up animation */
+@keyframes scaleUp {
+  from {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(3) translateY(0);
+    opacity: 3;
+  }
+}
+
+/* Slide down + fade out */
+@keyframes slideDownOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+    background-color: var(--background-color);
+    pointer-events: auto;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+    background-color: transparent;
+    pointer-events: none;
+  }
+}
+
+/* Circle wrapper and circle */
+.circle-wrapper {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform: rotate(-90deg) scale(2);
+  animation: shrinkScale 2.5s ease-out forwards;
+  will-change: transform;
+}
+
+.progress-ring {
+  stroke: var(--primary-color);
+  stroke-dasharray: 292.6;
+  stroke-dashoffset: 292.6;
+  animation: drawCircle 2.5s ease-out forwards;
+  z-index: -2;
+  transform-origin: center;
+  will-change: stroke-dashoffset;
+}
+
+@keyframes shrinkScale {
+  to {
+    transform: rotate(-90deg) scale(1);
+  }
+}
+
+@keyframes drawCircle {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Intro image */
+.intro-image {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) translateY(120%);
+  opacity: 0;
+  animation: riseImage 1.7s ease-out 1s forwards;
+  will-change: opacity, transform;
+}
+
+@keyframes riseImage {
+  to {
+    transform: translateX(-50%) translateY(-20%);
+    opacity: 1;
+  }
+}
+
+/* Slogan words */
+.slogan-words {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+}
+
+.word {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInWord 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  will-change: opacity, transform;
+}
+
+.word1 {
+  animation-delay: 2.4s;
+}
+
+.word2 {
+  animation-delay: 3.1s;
+}
+
+.word3 {
+  animation-delay: 3.8s;
+}
+
+@keyframes fadeInWord {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .circle-wrapper {
+    width: 80px;
+    height: 80px;
+  }
+
+  .word {
+    font-size: 1.3rem;
+  }
+}

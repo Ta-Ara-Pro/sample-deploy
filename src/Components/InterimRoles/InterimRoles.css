@@ -1,0 +1,367 @@
+.interim-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; /* prevent wrapping if you want strict side by side */
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start; /* align top edges */
+  padding: 40px 20px;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  margin-top: 5rem;
+  width: 100%; /* full width */
+  background: white;
+}
+
+.interim-column0 {
+  flex: 1 1 450px;
+  max-width: 500px;
+  padding: 24px;
+  border-radius: 12px;
+  margin: 0; /* remove vertical margins */
+}
+
+.interim-roles-button {
+   background: #ffffff;
+  color: #494949;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: 0.5px solid #b3b3b3;}
+
+.comparison-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 40px 20px;
+    /* background-color: #fff; */
+    font-family: 'Inter', sans-serif;
+    position: relative;
+  }
+  
+ 
+  .interim-column-vs {
+    flex: 1 1 450px;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  .interim-column {
+    flex: 1 1 450px;
+    max-width: 500px;
+    background-color: #F7F8FA;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .interim-column h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #111827;
+  }
+  
+  .interim-desc {
+    text-align: left;
+    font-size: 16px;
+    color: #24282e;
+    margin-bottom: 24px;
+  }
+  
+  .deliver-section h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 16px;
+  }
+  
+  .deliver-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .deliver-section li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    margin-bottom: 16px;
+  }
+  
+  .deliver-section li img {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+  }
+  
+  .deliver-section li strong {
+    font-size: 14px;
+    color: #1f2937;
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .deliver-section li p {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .interim-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .interim-column {
+      max-width: 100%;
+    }
+  }
+  
+.plan-wrapper {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #F7F8FA;
+    height: auto;
+  }
+  
+  .plan-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #111827;
+  }
+  
+  .blue-text {
+    color: #3b82f6;
+  }
+  
+  .plan-subtitle {
+    font-size: 14px;
+    color: #6b7280;
+    max-width: 500px;
+    margin: 0 auto 40px;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    line-height: 1.5;
+}
+  
+  .plan-circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; /* spacing between circles */
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 5;
+
+  
+}
+
+.circle-block0,
+.circle-block1,
+.circle-block2 {
+  background-color: white;
+  border-radius: 50%;
+  width: 30vw; /* responsive size */
+  max-width: 280px;
+  aspect-ratio: 1 / 1;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+  padding: 1rem;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.circle-block0 h4,
+.circle-block1 h4,
+.circle-block2 h4 {
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+  font-weight: 800;
+  color: #111827;
+  text-align: center;
+}
+
+.circle-block0 p,
+.circle-block1 p,
+.circle-block2 p {
+  font-size: 0.6rem;
+  color: #4b5563;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.circle-number {
+  width: 40px;
+  height: auto;
+  margin-bottom: 0.5rem;
+  
+  position: absolute;
+  top: -1rem;
+}
+
+/* Optional Safari-specific tweak */
+@media screen and (min-width: 1280px) and (max-width: 1800px) {
+  .circle-block0,
+  .circle-block1,
+  .circle-block2 {
+    width: 25vw;
+    max-width: 260px;
+  }
+}
+
+  .plane-icon {
+    margin: 20px auto;
+    height: 40px;
+    
+  }
+  
+  .metrics-section {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 6rem;
+    position: relative;
+   
+  }
+
+  
+  .metrics-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    z-index: 2;
+    position: relative;
+    position: relative;
+  }
+
+  .metrics-des {
+    font-size: 12px;
+    color: #2b2b2b;
+    z-index: 2;
+    position: relative;
+
+  }
+  
+  .metrics-box {
+    background: #fff;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .metrics-box h4 {
+    margin-bottom: 16px;
+    font-size: 16px;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .metrics-box ul {
+    list-style: none;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .metrics-box li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .metric-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #3b82f6;
+    border-radius: 50%;
+    margin-top: 6px;
+    z-index: 2;
+    position: relative;
+  }
+
+  .title-metric {
+    color: #4a6288;
+    line-height: 1.5;
+    z-index: 2;
+    position: relative;
+  }
+  .des-metric{
+    color: #8788af;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .metrics-box li strong {
+    font-size: 14px;
+    display: block;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .metrics-box li p {
+    font-size: 13px;
+    color: #4b5563;
+    margin: 0;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .metrics-note {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #6b7280;
+    z-index: 2;
+    position: relative;
+  }
+  .metrics-section2 {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    position: relative;
+   
+  }
+
+  .comparison-section {
+    margin-top: 40px;
+  }
+  
+  .comparison-section .interim-column {
+    text-align: left;
+  }
+  
+  .desc-with-icon {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 0.5rem;
+  }
+  
+  .comparison-tick {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px; /* aligns better with paragraph text */
+  }
+  
+  

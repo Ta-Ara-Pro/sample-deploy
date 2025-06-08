@@ -1,0 +1,154 @@
+.contact-section {
+  padding: 80px 20px;
+  text-align: center;
+  margin-top: 6%;
+  box-sizing: border-box;
+}
+
+.contact-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 40px;
+  font-family: Montserrat, sans-serif;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #E2EDFF;
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 1050px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.contact-form {
+  flex: 1 1 60%;
+  min-width: 280px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.contact-form h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 5px;
+}
+
+.contact-form p {
+  font-size: 14px;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.form-row input {
+  flex: 1 1 140px;
+  min-width: 140px;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  background-color: #418FDE;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  box-sizing: border-box;
+}
+
+form button:hover {
+  background-color: #2563eb;
+}
+
+.status-message {
+  margin-top: 12px;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.contact-info {
+  flex: 1 1 30%;
+  min-width: 260px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  text-align: left;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.info-item img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.info-bold {
+  font-weight: 600;
+  color: #111827;
+}
+
+.info-detail {
+  margin-top: 0.5rem;
+  font-size: 12px;
+  font-weight: 400;
+  color: #414857;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .contact-box {
+    flex-direction: column;
+    padding: 20px;
+    gap: 24px;
+  }
+
+  .contact-form,
+  .contact-info {
+    flex: 1 1 100%;
+    min-width: auto;
+  }
+}

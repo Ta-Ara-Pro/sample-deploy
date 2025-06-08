@@ -1,0 +1,95 @@
+.trends-wrapper {
+  position: relative;
+  background: #ffffff;
+  padding: 80px 80px;
+  overflow: hidden;
+
+  margin-top: 1rem;
+}
+
+.trends-background {
+  background: url('../../Assets/trends-bg.png') no-repeat center right;
+  background-size: contain;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.trends-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  gap: 60px;
+}
+
+.trends-left {
+  flex: 1;
+  max-width: 640px;
+}
+
+.trends-header {
+  margin-bottom: 32px;
+}
+
+.trends-icon {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 12px;
+}
+
+.trends-header h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.trends-intro {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.trend-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trend-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.trend-list img {
+  width: 18px;
+  height: 18px;
+  margin-top: 4px;
+}
+
+.trend-list h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 4px;
+}
+
+.trend-list p {
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.5;
+}
+
+.right-trend-list {
+  flex: 1;
+  max-width: 540px;
+  padding-top: 85px;
+}

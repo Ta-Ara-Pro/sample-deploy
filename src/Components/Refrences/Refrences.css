@@ -1,0 +1,74 @@
+.brands-section {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #fff;
+    z-index: 20;
+  }
+  
+  .brands-title {
+    font-size: 28px;
+    color: #418FDE;
+    font-weight: 700;
+    /* margin-bottom: 60px; */
+    z-index: 10;
+    margin-bottom: 2rem;
+  }
+  .brands-subtitle {
+    font-size: 28px;
+    /* color: #377dff;  */
+    font-weight: 500;
+    margin-bottom: 60px;
+    z-index: 10;
+  }
+  
+  .brands-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    z-index: 10;
+  }
+  
+  .brand-logo {
+    height: 60px;
+    width: 120px;
+    /* object-fit: contain; */
+  }
+  
+  .logo-divider {
+    width: 1px;
+    height: 32px;
+    background-color: #e0e0e0;
+  }
+  
+  .brands-description {
+    max-width: 900px;
+    margin: 0 auto 40px;
+    color: #666;
+    font-size: 11px;
+    line-height: 1.6;
+    /* background-color: #e0e0e0; */
+  }
+  
+  .brands-more-button {
+    padding: 12px 32px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 999px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .brands-more-button:hover {
+    background: #f5f5f5;
+  }
+  
+  .arrow {
+    margin-left: 5px;
+  }
+  

@@ -1,0 +1,55 @@
+.cookie-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.cookie-modal {
+  position: relative;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 720px;
+  max-height: 80vh;
+  overflow-y: auto;
+  font-family: 'Inter', sans-serif;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-body {
+  color: #1c1c1c;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.modal-title {
+  font-size: 12px;
+  color: #0072ce;
+}
+
+.modal-subtitle {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.modal-description {
+    font-size: 12px;
+    margin-bottom: 1rem;
+}

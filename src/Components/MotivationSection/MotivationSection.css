@@ -1,0 +1,139 @@
+.motivation-section {
+  background: #ffffff;
+  padding: 80px 20px;
+}
+
+.motivation-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.motivation-image {
+  flex: 1 1 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.motivation-image img {
+  width: 110%;
+  max-width: 950px;
+  height: auto;
+  object-fit: cover;
+  padding: 20px 0;
+}
+
+.motivation-content {
+  flex: 1 1 500px;
+  padding: 0 1rem;
+}
+
+.motivation-content h2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.09px;
+  color: #418FDE;
+}
+
+.motivation-content p {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23.8px;
+  letter-spacing: -0.09px;
+  width: 80%;
+  margin-top: 1.8rem;
+}
+
+.motivation-button {
+  background: #418FDE;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 207px;
+  height: 48px;
+  margin-left: -0.3rem;
+  margin-top: 1.8rem;
+}
+
+.motivation-button:hover {
+  background-color: #ffffff;
+  color: gray;
+  border: 0.5px solid gray;
+}
+
+/* Medium-sized screens: tablets and small laptops */
+@media (max-width: 1024px) {
+  .motivation-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .motivation-content {
+    padding: 0 1rem;
+  }
+
+  .motivation-content h2 {
+    font-size: 28px;
+  }
+
+  .motivation-content p {
+    font-size: 14px;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .motivation-button {
+    font-size: 15px;
+    padding: 12px 24px;
+    margin-left: 0;
+  }
+
+  .motivation-image img {
+    padding: 0;
+    width: 100%;
+    max-width: 420px;
+  }
+}
+
+/* Tablet landscape / smaller laptops */
+@media (max-width: 768px) {
+  .motivation-content h2 {
+    font-size: 26px;
+  }
+
+  .motivation-content p {
+    font-size: 13.5px;
+  }
+
+  .motivation-button {
+    font-size: 14.5px;
+    padding: 10px 22px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+  .motivation-content h2 {
+    font-size: 24px;
+  }
+
+  .motivation-content p {
+    font-size: 13px;
+  }
+
+  .motivation-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
